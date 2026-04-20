@@ -428,4 +428,10 @@
     <string name="config_thermalFilePath" translatable="false">/sys/class/thermal/thermal_zone0/temp</string>
     <integer name="config_thermalThreshold">45000</integer>
 
+     <!-- Smart pixels and burnin protection configs -->
+    <integer name="config_burnInProtectionMaxHorizontaloffset">15</integer>
+    <integer name="config_burnInProtectionMaxRadius">70</integer>
+    <integer name="config_burnInProtectionMaxVerticaloffset">40</integer>
+    <integer name="config_burnInProtectionMinHorizontaloffset">-15</integer>
+    <integer name="config_burnInProtectionMinVerticaloffset">-40</integer>
 </resources>
